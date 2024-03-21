@@ -1,0 +1,25 @@
+uuid: 3e51d5f9-a681-4e08-b80b-c1e671a89772
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - khiportal
+_core:
+  default_config_hash: C6sKUgAyvnB21WlhqP3ESg85SmuBPPpQkhoidz42u-w
+id: khiportal_site_branding
+theme: khiportal
+region: header
+weight: -7
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }

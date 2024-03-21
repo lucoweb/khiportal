@@ -1,0 +1,17 @@
+uuid: c2528ff3-80f6-4e1d-8dcf-579dd8594ad6
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: Khipost
+type: khipost
+description: '<p>Use <em>Khiposts</em> para qualquer coisa Khipostar sobre a empresa.</p>'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: true

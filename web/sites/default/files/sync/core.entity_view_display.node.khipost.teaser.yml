@@ -1,0 +1,44 @@
+uuid: a9b4d612-a68d-4156-aac2-729d36f97af0
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.khipost.body
+    - field.field.node.khipost.field_image
+    - image.style.medium
+    - node.type.khipost
+  module:
+    - image
+    - text
+    - user
+id: node.khipost.teaser
+targetEntityType: node
+bundle: khipost
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 2
+    region: content
+hidden: {  }

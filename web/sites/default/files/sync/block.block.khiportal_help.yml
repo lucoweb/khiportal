@@ -1,0 +1,22 @@
+uuid: 05389c06-b473-4017-8602-35cf0e70f4cb
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - khiportal
+_core:
+  default_config_hash: js93PTnCSuq6CjJB6Cmi0luKPWNuM6qxGWXu9CIXTNw
+id: khiportal_help
+theme: khiportal
+region: highlighted
+weight: -2
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

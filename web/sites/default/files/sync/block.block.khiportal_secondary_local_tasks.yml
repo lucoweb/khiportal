@@ -1,0 +1,22 @@
+uuid: 728a0ca8-d6d8-4ee4-a1d6-65197b1e0ac0
+langcode: en
+status: true
+dependencies:
+  theme:
+    - khiportal
+_core:
+  default_config_hash: VhvvAZPi4vArQ3T1zBFk4bku5peoj3EqAThKjUFAlCM
+id: khiportal_secondary_local_tasks
+theme: khiportal
+region: content
+weight: -4
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

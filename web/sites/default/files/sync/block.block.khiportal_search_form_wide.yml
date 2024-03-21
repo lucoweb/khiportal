@@ -1,0 +1,23 @@
+uuid: 0b5a6cbe-7ecf-4cbf-8426-c36a2dc04d79
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+  theme:
+    - khiportal
+_core:
+  default_config_hash: TUawJHkMgQIsai_mHko_mUEtK0VMRwK1zJXZ-5hoUuk
+id: khiportal_search_form_wide
+theme: khiportal
+region: top_header_form
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: 'Search form (wide)'
+  label_display: '0'
+  provider: search
+  page_id: ''
+visibility: {  }

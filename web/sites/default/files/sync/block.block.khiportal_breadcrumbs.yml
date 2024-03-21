@@ -1,0 +1,22 @@
+uuid: e9f29379-b0bf-4f37-bc2b-8a2db5527902
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - khiportal
+_core:
+  default_config_hash: OtCMNpepNnoXgaQ76Go-TfaCdXwP78HrezBaLQkSHFc
+id: khiportal_breadcrumbs
+theme: khiportal
+region: breadcrumb
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

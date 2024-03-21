@@ -1,0 +1,22 @@
+uuid: fb862800-ba4d-45b8-b4d2-e48d08e3d3fe
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - khiportal
+_core:
+  default_config_hash: DVt83EdrUw9D14LwSOTZ9dn5Y7O3d3kykBDxyixTWB8
+id: khiportal_powered
+theme: khiportal
+region: footer_fifth
+weight: -7
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

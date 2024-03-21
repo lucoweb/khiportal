@@ -1,0 +1,20 @@
+uuid: 08336611-a4fb-4985-9672-8b88896553b5
+langcode: en
+status: true
+dependencies:
+  theme:
+    - khiportal
+_core:
+  default_config_hash: Yty4Ix5_FibW0L-TROocph2F1Ego5fMES_78JZEsKxI
+id: khiportal_page_title
+theme: khiportal
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: 41fffd4f-f7f5-4616-a8dc-ffcc102b49e8
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - khiportal
+_core:
+  default_config_hash: 5qrzpQAhKOOMAh2538Ru4E3woBOt4Qc94-VBPPouddg
+id: khiportal_messages
+theme: khiportal
+region: highlighted
+weight: -6
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Status messages'
+  label_display: '0'
+  provider: system
+visibility: {  }
